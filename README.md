@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/skills.png" alt="Skills para agentes de IA, en español" width="100%">
+  <img src="assets/skills.png" alt="Skills para agentes de IA" width="100%">
 </p>
 
 <h1 align="center">Skills para agentes de IA, en español</h1>
@@ -34,7 +34,7 @@ Sirven para Claude Code, Codex, Cursor, Gemini CLI, Clawbot, OpenCode y el resto
 - [Antes de instalar nada: sentido común](#antes-de-instalar-nada-sentido-común)
 - [Cómo instalar](#cómo-instalar)
 
-**El índice**
+**Listado de Skills**
 
 - [Por dónde empezar](#por-dónde-empezar)
 - [Calidad de código y revisión](#calidad-de-código-y-revisión)
@@ -65,7 +65,17 @@ Este repo es el índice que a esa gente le falta — qué existe, qué hace cada
 
 Una skill es una carpeta con un archivo `SKILL.md` dentro. Ese archivo le explica al agente cómo hacer una tarea concreta: revisar código, respetar un sistema de diseño, generar un PDF, escribir un test.
 
-El agente lee solo el título y la descripción al arrancar. Carga el contenido completo únicamente cuando la tarea lo pide. Por eso puedes tener 40 skills instaladas sin que te coman el contexto.
+En esa carpeta cabe mucho más que el `SKILL.md`. Una skill también puede llevar:
+
+- **Ejemplos de referencia** — cinco posts tuyos para que copie tu tono, tres componentes bien hechos para que imite el patrón. Enseñar con ejemplos funciona mejor que describir con adjetivos.
+- **Documentación de apoyo** — archivos aparte con la parte densa: tu guía de marca, la tabla de tokens de diseño, la lista de endpoints. El `SKILL.md` los menciona y el agente los abre solo si los necesita.
+- **Scripts que se ejecutan** — Python, bash, lo que sea. Si el paso es determinista (redimensionar imágenes, validar un JSON, consultar una base), no tiene sentido que el agente lo improvise: mejor que corra el script.
+- **Plantillas y assets** — un `.docx` con tus estilos, un HTML base, un esquema de configuración.
+- **Herramientas externas** — la skill puede decirle al agente qué MCP usar, qué CLI llamar o a qué API pegarle, y en qué orden.
+
+Por eso una skill buena se parece más a un manual de onboarding con anexos que a un prompt largo.
+
+El agente lee solo el título y la descripción al arrancar. Carga el `SKILL.md` cuando la tarea lo pide, y el resto de archivos solo si hacen falta. Por eso puedes tener 40 skills instaladas sin que te coman el contexto.
 
 No es un prompt que pegas cada vez. Se instala una vez y queda.
 
