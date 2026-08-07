@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/header.svg" alt="Skills para agentes de IA, en español" width="100%">
+  <img src="assets/skills.png" alt="Skills para agentes de IA, en español" width="100%">
 </p>
 
 <h1 align="center">Skills para agentes de IA, en español</h1>
