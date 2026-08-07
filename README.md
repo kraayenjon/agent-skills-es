@@ -1,6 +1,22 @@
 
+<p align="center">
+  <img src="assets/header.svg" alt="Skills para agentes de IA, en español" width="100%">
+</p>
 
-# Skills para agentes de IA, en español
+<h1 align="center">Skills para agentes de IA, en español</h1>
+
+<p align="center">
+  <a href="https://x.com/kraayenjon">
+    <img src="https://img.shields.io/badge/Seguir%20en%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Seguir en X" />
+  </a>
+  <a href="https://www.linkedin.com/in/jonathan-kraayenbrink/">
+    <img src="https://img.shields.io/badge/Seguir%20en%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Seguir en LinkedIn" />
+  </a>
+  <a href="https://aprendevibecoding.com">
+    <img src="https://img.shields.io/badge/Aprende%20Vibe%20Coding-FF8A3D?style=for-the-badge&logoColor=white" alt="Aprende Vibe Coding" />
+  </a>
+</p>
+
 
 Las skills que la gente usa a diario, explicadas en español: qué hace cada una, cuándo te sirve y cómo instalarla en un comando.
 
