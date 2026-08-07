@@ -261,7 +261,7 @@ El problema más caro de trabajar con agentes: cada sesión arranca de cero.
 | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | --- |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) **(pack)** | CRO, copywriting, SEO, analítica y growth. Escritas por Corey Haines                                                              | 43k |
 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) **(pack)**             | SEO y GEO completo: 25 sub-skills y 18 sub-agentes cubriendo técnico, contenido, schema y visibilidad en buscadores de IA         | 14k |
-| [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) †                        | Le quita a tu texto las marcas de que lo escribió una IA. Los guiones largos, el "no se trata solo de", las tres frases paralelas | 15k |
+| [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)                        | Le quita a tu texto las marcas de que lo escribió una IA. Los guiones largos, el "no se trata solo de", las tres frases paralelas | 15k |
 
 
 ---
@@ -308,10 +308,10 @@ El problema más caro de trabajar con agentes: cada sesión arranca de cero.
 
 | Skill                                                                                       | Qué hace                                                                                                         | ★    |
 | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---- |
-| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) † | Un único `CLAUDE.md` para mejorar el comportamiento del agente, derivado de las observaciones de Andrej Karpathy | 200k |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)  | Un único `CLAUDE.md` para mejorar el comportamiento del agente, derivado de las observaciones de Andrej Karpathy | 200k |
 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)           | CLI para configurar y monitorizar Claude Code. Hecho por Daniel Ávila, en español                                | 30k  |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud)                         | Muestra en pantalla qué está pasando: uso de contexto, herramientas activas, agentes corriendo                   | 27k  |
-| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) †     | Gestión de tareas para agentes. Funciona en Cursor, Windsurf, Roo y otros                                        | 28k  |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)      | Gestión de tareas para agentes. Funciona en Cursor, Windsurf, Roo y otros                                        | 28k  |
 
 
 ---
@@ -326,12 +326,6 @@ El problema más caro de trabajar con agentes: cada sesión arranca de cero.
 | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | Más de 100 subagentes especializados                    | 24k  |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips)                                 | Más de 40 trucos de Claude Code, de básico a avanzado   | 9.6k |
 
-
----
-
-**†** Sin actualizaciones desde hace más de tres meses. Siguen funcionando, pero el ecosistema se mueve rápido.
-
-Cada repo verificado contra la API de GitHub el 7 de agosto de 2026. Las estrellas cambian rápido: úsalas como señal, no como veredicto.
 
 ---
 
