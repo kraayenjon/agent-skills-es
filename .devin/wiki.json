@@ -1,0 +1,263 @@
+{
+  "repo_notes": [
+    {
+      "content": "Índice en línea: https://skillsagentes.com"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Overview: Agent Skills ES",
+      "purpose": "High-level introduction to the repository: what it is, who it is for, and how it is organized. Summarizes the purpose of the curated Spanish-language Skills index and links to all child pages for deeper exploration.",
+      "page_notes": [
+        {
+          "content": "Live index: https://skillsagentes.com"
+        }
+      ]
+    },
+    {
+      "title": "What Is a Skill?",
+      "purpose": "Explains the core concept of a Skill: a directory containing a SKILL.md file that gives an AI agent structured procedural instructions. Covers the anatomy of a Skill (SKILL.md, reference examples, supporting docs, scripts, templates), the lazy-loading lifecycle (metadata → activation → dependency), and how Skills differ from plain prompts and from MCPs.",
+      "parent": "Overview: Agent Skills ES",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Packs vs. Individual Skills",
+      "purpose": "Clarifies the distinction between a single Skill and a Pack (a repository containing multiple Skills). Explains why this matters for installation, context bloat, and how to target a specific Skill within a Pack using the --skill flag.",
+      "parent": "Overview: Agent Skills ES",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Installation & Usage",
+      "purpose": "Overview of the three installation methods available for Skills, linking to child pages that cover each method in detail. Also introduces the concept of transient (try-before-you-install) execution.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Installing with npx skills",
+      "purpose": "Step-by-step guide to the primary CLI tool `npx skills`. Covers all command variants: `add owner/repo` (project-local), `add owner/repo -g` (global), `add owner/repo --skill name` (single Skill from a Pack), and `use owner/repo@name --agent agent-name` (transient execution without installation). Explains the difference between project-local (.claude/skills/) and global (~/.claude/skills/) installation paths.",
+      "parent": "Installation & Usage",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Installing via Claude Code Plugins",
+      "purpose": "Explains the Claude Code-specific plugin installation path using `/plugin marketplace add` and `/plugin install` commands. Notes which agents this method applies to and how it differs from the npx approach.",
+      "parent": "Installation & Usage",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Manual Installation",
+      "purpose": "Describes how to manually copy a Skill directory into the filesystem (~/.claude/skills/ for global scope, .claude/skills/ for project scope). Useful when the CLI is unavailable or when installing from a local source.",
+      "parent": "Installation & Usage",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Security & Best Practices",
+      "purpose": "Overview of the security model and recommended practices before and after installing any Skill. Links to child pages covering repository vetting and safe installation habits.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Auditing a Skill Before Installation",
+      "purpose": "Detailed guide on how to evaluate a Skill's trustworthiness before installing it. Covers: reading the SKILL.md manually (shell commands, external HTTP requests, credential access, filesystem scope), using the agent itself to audit the file, checking repo metadata (commit recency, open issues, maintainer history, star authenticity), and using `npx skills use` for a dry run.",
+      "parent": "Security & Best Practices",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Safe Installation Habits",
+      "purpose": "Practical rules for minimizing risk after vetting: install one Skill at a time, test in a throwaway project before production, prefer project-local over global installation, and uninstall unused Skills to reduce context noise and mental overhead.",
+      "parent": "Security & Best Practices",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Skill Directory by Category",
+      "purpose": "Overview of all curated Skill categories covered in this index. Each category is a child page listing the recommended Skills, what they do, their star counts, and installation commands. Serves as the main reference section of the wiki.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Getting Started Skills",
+      "purpose": "Covers the four foundational Skills recommended for first-time users: vercel-labs/skills (the npx CLI itself), anthropics/skills (official Anthropic Pack), obra/superpowers (comprehensive agent methodology framework), and anthropics/claude-plugins-official (official plugin directory). Explains why each is a safe starting point.",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Code Quality & Review Skills",
+      "purpose": "Lists Skills focused on engineering quality: mattpocock/skills (70+ engineering skills including grill-me and tdd), addyosmani/agent-skills (production engineering), wshobson/agents (multi-agent marketplace), EveryInc/compound-engineering-plugin, and affaan-m/ECC (full agent optimization system). Includes installation commands and use-case guidance.",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Design & UI Skills",
+      "purpose": "Lists Skills that improve visual output quality: nextlevelbuilder/ui-ux-pro-max-skill, Leonxlnx/taste-skill, pbakaus/impeccable, and emilkowalski/skills. Explains how these counteract generic 'vibe-coded' aesthetics and enforce consistent design systems.",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Token Saving Skills",
+      "purpose": "Covers Skills that reduce token consumption: JuliusBrussee/caveman (65% token reduction via terse responses) and DietrichGebert/ponytail (senior-laziness heuristic). Explains the token optimization philosophy and when to apply these Skills.",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Memory & Context Skills",
+      "purpose": "Lists Skills that address the stateless-session problem: thedotmack/claude-mem (persistent memory), upstash/context7 (live library docs injection), gastownhall/beads (memory upgrade), OthmanAdi/planning-with-files (file-based planning for long tasks), and muratcankoylan/Agent-Skills-for-Context-Engineering (context engineering Pack).",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Codebase Understanding Skills",
+      "purpose": "Covers Skills for navigating and comprehending large codebases: Graphify-Labs/graphify (knowledge graph from code, docs, SQL, PDFs) and yamadashy/repomix (pack entire repo into a single AI-ready file).",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Marketing, SEO & Writing Skills",
+      "purpose": "Lists Skills for content and growth work: coreyhaines31/marketingskills (CRO, copywriting, SEO, analytics), AgriciDaniel/claude-seo (25 sub-skills for technical and AI-search SEO), and hardikpandya/stop-slop (removes AI-writing tells from text).",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Research & Document Skills",
+      "purpose": "Covers Skills for academic and knowledge-work workflows: kepano/obsidian-skills (Obsidian integration), Imbad0202/academic-research-skills (full academic writing pipeline), and Orchestra-Research/AI-Research-SKILLs (AI research and engineering library).",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Browser & Automation Skills",
+      "purpose": "Lists Skills for web automation and external integrations: vercel-labs/agent-browser (agent-native browser CLI), vercel-labs/agent-skills (Vercel official Pack with React best practices), mcp-use/mcp-use (MCP server framework), and huggingface/skills (Hugging Face ecosystem access).",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Video & Multimedia Skills",
+      "purpose": "Covers Skills for programmatic video production: calesthio/OpenMontage (12 pipelines, 100+ tools), heygen-com/hyperframes (HTML-to-video for agents), and remotion-dev/skills (React-based video with remotion-best-practices).",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Productivity & Agent Control Skills",
+      "purpose": "Lists Skills for managing agent behavior and workflow: multica-ai/andrej-karpathy-skills (CLAUDE.md behavior tuning), davila7/claude-code-templates (CLI config and monitoring, in Spanish), jarrodwatts/claude-hud (real-time context/tool HUD), and eyaltoledano/claude-task-master (task management across Cursor, Windsurf, Roo).",
+      "parent": "Skill Directory by Category",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Repository Structure & Contributing",
+      "purpose": "Explains the structure of the agent-skills-es repository itself: the README as the single-page index, the assets/ directory, the .gitignore configuration, and the MIT license. Provides guidance for contributors who want to fork, translate, or extend the index.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "File Layout & Assets",
+      "purpose": "Documents the repository's minimal file structure: README.md (the entire index), assets/skills.png (the header banner image), and .gitignore (macOS artifact exclusions). Explains how the single-page design keeps the index lightweight and easy to fork.",
+      "parent": "Repository Structure & Contributing",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Forking, Translating & Extending",
+      "purpose": "Guidance for community contributors: how to fork the repo to create a localized or domain-specific index, how to add new Skills to the tables (format, required fields: name, description, star count), and the MIT license terms that permit copying and redistribution.",
+      "parent": "Repository Structure & Contributing",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Glossary",
+      "purpose": "Defines all codebase-specific terms, Spanish-language jargon, abbreviations, and domain concepts that an onboarding engineer or Spanish-speaking developer would need to understand when working with this repository or the broader AI agent Skills ecosystem.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    }
+  ]
+}
