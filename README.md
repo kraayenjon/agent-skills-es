@@ -382,6 +382,7 @@ Esta categoría es la que más rápido se nota. Es la diferencia entre una app q
 | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) **(pack)**  | Stitch, de Google Labs: genera el diseño, gestiona el design system y lo pasa a React, React Native o HTML                                                                           | 8.0k |
 | [jakubkrehel/make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better) | Principios de design engineering: sombras, bordes, tipografía, hover, animaciones de entrada y salida                                                                          | 2.9k |
 | [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion)                                     | Animación web interactiva: scroll, puntero, drag, touch, orientación del dispositivo, audio y estado de componente                                                                   | 2.0k |
+| [kraayenjon/claude-pagekit](https://github.com/kraayenjon/claude-pagekit) **(pack)**            | Mía. 16 skills que hacen una web entera desde una conversación: diseño que no parece de IA, textos de conversión, `llms.txt` y datos estructurados para que te citen, y deploy. Español o inglés | —    |
 
 
 Son 239 en total: las tienes en [skills de diseño y UI](https://skillsagentes.com/categorias/diseno-ui).
