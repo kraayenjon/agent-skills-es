@@ -296,6 +296,7 @@ La categoría que menos se instala y más se echa de menos.
 | [firebase/agent-skills](https://github.com/firebase/agent-skills) **(pack)**                 | Firebase Auth y reglas de seguridad de Firestore, que es donde se filtran los datos de medio internet                  | 406  |
 | [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) **(pack)**             | `golang-safety` y `golang-security`: los errores de concurrencia y de manejo de datos típicos de Go                    | 3.0k |
 | [useosint/osint-skills](https://github.com/useosint/osint-skills) **(pack)**                 | OSINT defensivo: qué se ha filtrado de ti, qué servidores tuyos están expuestos, qué subdominios tienes olvidados      | 13   |
+| [morluto/rea](https://github.com/morluto/rea) | `reverse-engineer-anything`: guía al agente para analizar binarios y apps JavaScript/Electron con CLI/MCP local y evidencias; el análisis nativo avanzado requiere Hopper, Ghidra o IDA | 38.1k |
 
 
 El directorio tiene 55 en total en [skills de seguridad](https://skillsagentes.com/categorias/seguridad).
